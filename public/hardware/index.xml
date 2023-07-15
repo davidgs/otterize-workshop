@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building The Hardware on Hardware Hacking with Otterize</title>
+    <link>https://davidgs.com/otterize-workshop/hardware/</link>
+    <description>Recent content in Building The Hardware on Hardware Hacking with Otterize</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2023 14:29:43 -0400</lastBuildDate><atom:link href="https://davidgs.com/otterize-workshop/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardware</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/hardware/</link>
+      <pubDate>Tue, 11 Jul 2023 15:06:47 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/hardware/</guid>
+      <description>Building the hardware It&amp;rsquo;s time to assemble the hardware for the lab, finally! Here&amp;rsquo;s what the entire contents of the kit look like:
+If you&amp;rsquo;re missing any pieces, please let me know. What you should have is:
+1 ESP32-CAM Board 1 camera module 1 programmer board 1 breadboard 2 10k ohm resistors 2 tactile buttons (with colored covers) 1 USB to TTL adapter 11 jumper wires </description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/camera/</link>
+      <pubDate>Tue, 11 Jul 2023 15:06:47 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/camera/</guid>
+      <description>Installing the camera module Note: The camera module is very delicate. Be careful when handling it. The parts of the clamp are also very delicate so be extra careful when opening and closing it.
+First, you&amp;rsquo;ll need to open the little black clamp on the top of the ESP32-CAM
+Insert the camera ribbon cable into the clamp and close the black tab completely.
+Note: This is a delicate piece of plastic, so be very careful with it.</description>
+    </item>
+    
+    <item>
+      <title>Breadboard</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/breadboard/</link>
+      <pubDate>Tue, 11 Jul 2023 15:24:03 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/breadboard/</guid>
+      <description>Setting up the breadboard First the camera module Place the ESP32-CAM board on the breadboard. Put the module at one end of the breadboard, as far as it will go, with the antennae hanging off of the end of the breadboard.
+Note: You will need to use a bit of force to ensure that the camera module is seated on the breadboard. Don&amp;rsquo;t press too hard though so that you don&amp;rsquo;t damage the board.</description>
+    </item>
+    
+    <item>
+      <title>TTL Adapter</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/ttl-adapter/</link>
+      <pubDate>Tue, 11 Jul 2023 15:34:13 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/ttl-adapter/</guid>
+      <description>Setting up the USB to TTL (UART) adapter Get out the USB to TTL adapter and remove the jumper clip from it.
+Connect one set of jumper wires to the 5v and GND pins on the USB to TTL adapter and another set of jumper wires to the ``TXDandRXD` pins.
+Connect the jumper wires from the 5v and GND pins on the ESP32-CAM board to the rows marked (-) on the side of the breadboard.</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/configuration/</link>
+      <pubDate>Wed, 12 Jul 2023 11:37:28 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/configuration/</guid>
+      <description>Configuring the hardware Now that you&amp;rsquo;ve assembled the hardware, you&amp;rsquo;ll need to configure it to use as a camera.
+We will need to connect it to WiFi and set the email credentials so it can send you pictures.
+This is a fairly easy process thanks to the WiFiManager library that we will be using.
+The first step is to open the Arduino IDE and open the EmailPhoto app. You can download it here sketch.</description>
+    </item>
+    
+    <item>
+      <title>Wifi Setup</title>
+      <link>https://davidgs.com/otterize-workshop/hardware/wifi-setup/</link>
+      <pubDate>Fri, 14 Jul 2023 17:01:08 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/hardware/wifi-setup/</guid>
+      <description>Connecting to WiFi Now that youve got the hardware up, look in the Serial Monitor output for the following line:
+*wm:AP IP address: 192.168.4.1 Entered config mode 192.168.4.1 ESP32_7BA8CC84 *wm:Starting Web Portal That&amp;rsquo;s the current network configuration. The key here is the ESP_7BA8CC84 bit. Open your phone and look for that in the &amp;ldquo;Available Networks&amp;rdquo; and connect to it.
+Once connected, you should be greeted with the Welcome page:
+Click on Configure WiFi and you will see the configuration page:</description>
+    </item>
+    
+  </channel>
+</rss>

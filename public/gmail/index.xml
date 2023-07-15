@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setting up GMail on Hardware Hacking with Otterize</title>
+    <link>https://davidgs.com/otterize-workshop/gmail/</link>
+    <description>Recent content in Setting up GMail on Hardware Hacking with Otterize</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jul 2023 17:18:59 -0400</lastBuildDate><atom:link href="https://davidgs.com/otterize-workshop/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2 Factor Authentication (2FA)</title>
+      <link>https://davidgs.com/otterize-workshop/gmail/2fa/</link>
+      <pubDate>Fri, 14 Jul 2023 17:21:51 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/gmail/2fa/</guid>
+      <description>What is 2FA? Security (in the sense of passwords) is best when there are 2 (or more) parts to it.
+Something you know (like a password) Something you have (like a phone, or a hardware token) It&amp;rsquo;s relatively easy for someone to get your password, but it&amp;rsquo;s much harder for them to get your password and your phone.
+Note: You should absolutely set up 2FA on any and all accounts that allow it!</description>
+    </item>
+    
+    <item>
+      <title>App Password</title>
+      <link>https://davidgs.com/otterize-workshop/gmail/app-password/</link>
+      <pubDate>Fri, 14 Jul 2023 17:30:38 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/gmail/app-password/</guid>
+      <description>Setting up an Application Specific Password For this workshop we won&amp;rsquo;t be using your actual GMail password (because that would be insane). Instead, we will be using an application-specific password.
+To create an app-specific password, go to your Google Account and click on Security in the left-hand menu, then click on 2 Factor Authentication. At the bottom of that page, you&amp;rsquo;ll see a box for &amp;lsquo;App Passwords&amp;rsquo;. Click on that and you&amp;rsquo;ll be able to create a new app password.</description>
+    </item>
+    
+  </channel>
+</rss>

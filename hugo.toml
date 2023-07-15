@@ -1,0 +1,4 @@
+baseURL = 'https://davidgs.com/otterize-workshop'
+languageCode = 'en-us'
+title = 'Hardware Hacking with Otterize'
+theme = 'learn'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro and Pre Requisites on Hardware Hacking with Otterize</title>
+    <link>https://davidgs.com/otterize-workshop/intro-pre-requisites/</link>
+    <description>Recent content in Intro and Pre Requisites on Hardware Hacking with Otterize</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2023 14:29:43 -0400</lastBuildDate><atom:link href="https://davidgs.com/otterize-workshop/intro-pre-requisites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install the IDE</title>
+      <link>https://davidgs.com/otterize-workshop/intro-pre-requisites/install/</link>
+      <pubDate>Tue, 11 Jul 2023 14:29:43 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/intro-pre-requisites/install/</guid>
+      <description>Installing the Arduino IDE Go to the Arduino website and download the appropriate version of the Arduino IDE for your operating system. The Arduino IDE is available for Windows, Mac OS X, and Linux.
+Follow the instructions to install on your platform.
+Note: If you&amp;rsquo;re installing on macOS, simply drag the Arduino IDE to your Applications folder.</description>
+    </item>
+    
+    <item>
+      <title>Configure the IDE</title>
+      <link>https://davidgs.com/otterize-workshop/intro-pre-requisites/configure/</link>
+      <pubDate>Tue, 11 Jul 2023 14:29:43 -0400</pubDate>
+      
+      <guid>https://davidgs.com/otterize-workshop/intro-pre-requisites/configure/</guid>
+      <description>We need to configure the IDE In order to communicate with the hardware, and to build the proper embedded software, the IDE needs to be configured.
+Update for the hardware We will also need to install the proper board support package for the ESP32-CAM board. For this exercise we will be using ESP32 Arduino 2.0.x which is the most recent release.
+To install this release, go to the Ardunio IDE and open the Preferences menu.</description>
+    </item>
+    
+  </channel>
+</rss>
